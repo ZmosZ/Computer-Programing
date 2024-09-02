@@ -7,8 +7,10 @@ for i in range(a):
 mean = sum(x)/(len(x))
 data = sorted(x)
 n = (len(data))
-median_index = n // 2 - 1 if n % 2 == 0 else n // 2
-median = data[median_index]
+if n % 2 ==0:
+    median = data[n//2-1]
+else:
+    median = data[n//2]
 
 print('mean: ',mean)
 print('median: ',median)
