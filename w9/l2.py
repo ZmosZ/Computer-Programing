@@ -9,6 +9,8 @@ while True:
     score = int(t[1])
     x.append(name)
     y.append(score)
-m = x.index(max(score))
-mn = x.index(min(score))
-print(m,mn)
+if y:
+    max_index = y.index(max(y))
+    min_index = y.index(min(y))
+    print(x[max_index])
+    print(x[min_index])
