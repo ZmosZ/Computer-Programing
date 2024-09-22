@@ -1,5 +1,5 @@
 def cal(a,b,c):
-    t1 = a**2
+    t1 = a*a
     t2 = b + 100
     t3 = c - 50
     return(t1,t2,t3)
