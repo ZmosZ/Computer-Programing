@@ -4,4 +4,4 @@ def F(p):
         b = b*i
     return b
 a = int(input())
-print(F9(a))
+print(F(a))
