@@ -23,8 +23,8 @@ def Calculator():
             c = A.count(A[i])
             if c > L:
                 L = c
-                mod = A[i]
-        print(mod)
+                mode = A[i]
+        print(mode)
     elif m ==4:
         print(sd)
     elif m == 5:
